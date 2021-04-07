@@ -1,0 +1,56 @@
+.details_container
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Innerdetails
+{
+    // border: 1px solid black;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+
+}
+.Header
+{
+    font-weight: 400;
+    font-size: xx-large;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+.Labels
+{
+    // border: 1px solid black;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    & .Label
+    {
+        // border: 1px solid black;
+        height: 60px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 500;
+        color: grey;
+       
+        & #demo-simple-select
+        {
+            width: 100px;
+            display: flex;
+            // margin-left: 10px;
+            // margin-left: 10px;
+        }
+       
+    }
+
+}

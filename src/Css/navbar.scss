@@ -1,0 +1,51 @@
+.Nav_container {
+    width: 100%;
+  //   border: 1px solid black;
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+  
+    & img {
+      height: 40px;
+    }
+    
+  }
+  .Nav_left
+  {
+  //   border: 1px solid black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & span 
+    {
+        font-weight: 700;
+        color: purple;
+    }
+  }
+  .Nav_right
+  {
+      display: flex;
+      align-items: center;
+      // border: 1px solid black;
+      width:15rem;
+      justify-content: space-between;
+      font-weight: 600;
+      & button
+      {
+          background-color: transparent;
+          border:1px solid gold;
+          height: 30px;
+          border-radius: 10px;
+          color: gold;
+   
+      }
+     
+  }
+  .Inner_right
+  {
+      // border: 1px solid black;
+      display: flex;
+      align-items: center;
+  }
